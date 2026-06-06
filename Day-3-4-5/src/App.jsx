@@ -1,7 +1,7 @@
 import './App.css'
-import Todo from './components/Todo';
+import Todo from './components/Todo.jsx';
 import { Provider } from 'react-redux';
-import { store } from './app/store';
+import {store}  from './app/store';
 
 function App() {
   return (
